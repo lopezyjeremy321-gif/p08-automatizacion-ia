@@ -1,0 +1,28 @@
+# n8n PROPIO de P08 (no toca el compose global del cerebro). Puerto 3181, solo 127.0.0.1.
+# Imagen fijada: se retagueo la imagen local 2.45.7 como p08-n8n:2.45.7 (docker tag), sin descargar nada nuevo.
+#   docker compose -p p08 -f n8n/compose.p08.yml --env-file n8n/.env.p08 up -d
+# n8n/.env.p08 lo genera scripts/iniciar-n8n.ps1 (gitignored): N8N_ENCRYPTION_KEY aleatoria.
+name: p08
+services:
+  p08-n8n:
+    image: p08-n8n:2.45.7
+    container_name: p08-n8n
+    restart: "no"
+    security_opt: ["no-new-privileges:true"]
+    environment:
+      N8N_ENCRYPTION_KEY: ${N8N_ENCRYPTION_KEY:?falta}
+      N8N_HOST: localhost
+      N8N_PORT: "5678"
+      N8N_SECURE_COOKIE: "false"            # solo porque es localhost sin HTTPS
+      N8N_BLOCK_ENV_ACCESS_IN_NODE: "true"  # los nodos no leen variables de entorno
+      NODES_EXCLUDE: '["n8n-nodes-base.executeCommand","n8n-nodes-base.ssh","n8n-nodes-base.code"]'
+      N8N_DIAGNOSTICS_ENABLED: "false"
+      N8N_VERSION_NOTIFICATIONS_ENABLED: "false"
+      N8N_PERSONALIZATION_ENABLED: "false"
+      GENERIC_TIMEZONE: America/Santo_Domingo
+    extra_hosts: ["host.docker.internal:host-gateway"]
+    volumes: ["p08-n8n-data:/home/node/.n8n", "../n8n:/p08-flujos:ro"]
+    ports: ["127.0.0.1:3181:5678"]
+    mem_limit: 1g
+volumes:
+  p08-n8n-data:

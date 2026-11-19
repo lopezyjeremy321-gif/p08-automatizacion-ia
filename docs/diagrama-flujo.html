@@ -1,0 +1,81 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>P08 flujo de correo a tareas</title><style>
+*{box-sizing:border-box;margin:0;padding:0}:root{--paper:#f5f5f5;--ink:#2d3142;--muted:#4f5d75}
+body{font-family:system-ui,"Segoe UI",sans-serif;background:var(--paper);color:var(--ink);padding:2rem}
+.frame{max-width:1000px;margin:0 auto}h1{font-size:clamp(1.4rem,2vw+.7rem,1.9rem);font-weight:600;letter-spacing:-.01em;margin-bottom:.4rem}
+p{color:var(--muted);margin-bottom:1.2rem;max-width:70ch;line-height:1.5}.c{overflow-x:auto}svg{width:100%;min-width:760px;display:block}
+</style></head><body><div class="frame"><h1>De un correo a una respuesta aprobada</h1>
+<p>Todos los caminos sin clic válido terminan sin envío. El borde derecho muestra por qué un correo sale del flujo.</p>
+<div class="c"><svg viewBox="0 0 1000 1098" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+<title id="t">Flujo de correo a tareas con aprobación obligatoria</title>
+<desc id="d">Un correo de prueba pasa por firma, esquema, deduplicación y clasificación. Solo ventas y soporte sin inyección generan borrador y aviso; el único camino a un envío es un clic válido en Aprobar.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#4f5d75"/></marker>
+<marker id="arrow-accent" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#bf4520"/></marker>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.9" fill="rgba(45,49,66,0.10)"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f5f5f5"/><rect width="100%" height="100%" fill="url(#dots)" opacity="0.55"/>
+<line x1="400" y1="80" x2="400" y2="114" stroke="#4f5d75" stroke-width="1.3" marker-end="url(#arrow)"/>
+<line x1="515.0" y1="156.0" x2="605.0" y2="156.0" stroke="#4f5d75" stroke-width="1.3" marker-end="url(#arrow)"/>
+<rect x="539.0" y="139.0" width="30" height="12" rx="2" fill="#f5f5f5"/><text x="554.0" y="148.0" fill="#4f5d75" font-size="8" font-family="monospace" text-anchor="middle" letter-spacing="0.1em">NO</text>
+<line x1="400" y1="198" x2="400" y2="232" stroke="#4f5d75" stroke-width="1.3" marker-end="url(#arrow)"/>
+<rect x="408" y="206" width="30" height="12" rx="2" fill="#f5f5f5"/><text x="423" y="215" fill="#4f5d75" font-size="8" font-family="monospace" text-anchor="middle" letter-spacing="0.1em">SÍ</text>
+<line x1="515.0" y1="274.0" x2="605.0" y2="274.0" stroke="#4f5d75" stroke-width="1.3" marker-end="url(#arrow)"/>
+<rect x="539.0" y="257.0" width="30" height="12" rx="2" fill="#f5f5f5"/><text x="554.0" y="266.0" fill="#4f5d75" font-size="8" font-family="monospace" text-anchor="middle" letter-spacing="0.1em">NO</text>
+<line x1="400" y1="316" x2="400" y2="350" stroke="#4f5d75" stroke-width="1.3" marker-end="url(#arrow)"/>
+<rect x="408" y="324" width="30" height="12" rx="2" fill="#f5f5f5"/><text x="423" y="333" fill="#4f5d75" font-size="8" font-family="monospace" text-anchor="middle" letter-spacing="0.1em">SÍ</text>
+<line x1="515.0" y1="392.0" x2="605.0" y2="392.0" stroke="#4f5d75" stroke-width="1.3" marker-end="url(#arrow)"/>
+<rect x="539.0" y="375.0" width="30" height="12" rx="2" fill="#f5f5f5"/><text x="554.0" y="384.0" fill="#4f5d75" font-size="8" font-family="monospace" text-anchor="middle" letter-spacing="0.1em">SÍ</text>
+<line x1="400" y1="434" x2="400" y2="468" stroke="#4f5d75" stroke-width="1.3" marker-end="url(#arrow)"/>
+<rect x="408" y="442" width="30" height="12" rx="2" fill="#f5f5f5"/><text x="423" y="451" fill="#4f5d75" font-size="8" font-family="monospace" text-anchor="middle" letter-spacing="0.1em">NO</text>
+<line x1="400" y1="512" x2="400" y2="546" stroke="#4f5d75" stroke-width="1.3" marker-end="url(#arrow)"/>
+<line x1="515.0" y1="588.0" x2="605.0" y2="588.0" stroke="#4f5d75" stroke-width="1.3" marker-end="url(#arrow)"/>
+<rect x="539.0" y="571.0" width="30" height="12" rx="2" fill="#f5f5f5"/><text x="554.0" y="580.0" fill="#4f5d75" font-size="8" font-family="monospace" text-anchor="middle" letter-spacing="0.1em">NO</text>
+<line x1="400" y1="630" x2="400" y2="664" stroke="#4f5d75" stroke-width="1.3" marker-end="url(#arrow)"/>
+<rect x="408" y="638" width="30" height="12" rx="2" fill="#f5f5f5"/><text x="423" y="647" fill="#4f5d75" font-size="8" font-family="monospace" text-anchor="middle" letter-spacing="0.1em">SÍ</text>
+<line x1="400" y1="708" x2="400" y2="742" stroke="#4f5d75" stroke-width="1.3" marker-end="url(#arrow)"/>
+<line x1="400" y1="786" x2="400" y2="820" stroke="#4f5d75" stroke-width="1.3" marker-end="url(#arrow)"/>
+<line x1="515.0" y1="862.0" x2="605.0" y2="862.0" stroke="#4f5d75" stroke-width="1.3" marker-end="url(#arrow)"/>
+<rect x="539.0" y="845.0" width="30" height="12" rx="2" fill="#f5f5f5"/><text x="554.0" y="854.0" fill="#4f5d75" font-size="8" font-family="monospace" text-anchor="middle" letter-spacing="0.1em">NO</text>
+<line x1="400" y1="904" x2="400" y2="938" stroke="#bf4520" stroke-width="1.3" marker-end="url(#arrow-accent)"/>
+<rect x="408" y="912" width="30" height="12" rx="2" fill="#f5f5f5"/><text x="423" y="921" fill="#bf4520" font-size="8" font-family="monospace" text-anchor="middle" letter-spacing="0.1em">SÍ</text>
+<rect x="285.0" y="36" width="230" height="44" rx="20" fill="rgba(45,49,66,0.03)" stroke="rgba(45,49,66,0.30)"/>
+<text x="400" y="62.0" fill="#2d3142" font-size="12.5" font-weight="600" text-anchor="middle">Correo o formulario de prueba</text>
+<polygon points="400,114 515.0,156.0 400,198 285.0,156.0" fill="#ffffff" stroke="#2d3142"/>
+<text x="400" y="154.0" fill="#2d3142" font-size="11.5" font-weight="600" text-anchor="middle">¿Firma HMAC o</text>
+<text x="400" y="168.0" fill="#2d3142" font-size="11.5" font-weight="600" text-anchor="middle">token válidos?</text>
+<rect x="605.0" y="132.0" width="236" height="48" rx="20" fill="rgba(45,49,66,0.03)" stroke="rgba(45,49,66,0.30)"/>
+<text x="723.0" y="160.0" fill="#2d3142" font-size="11" font-weight="600" text-anchor="middle">401, no se procesa</text>
+<polygon points="400,232 515.0,274.0 400,316 285.0,274.0" fill="#ffffff" stroke="#2d3142"/>
+<text x="400" y="272.0" fill="#2d3142" font-size="11.5" font-weight="600" text-anchor="middle">¿Esquema válido y</text>
+<text x="400" y="286.0" fill="#2d3142" font-size="11.5" font-weight="600" text-anchor="middle">sin CR/LF?</text>
+<rect x="605.0" y="250.0" width="236" height="48" rx="20" fill="rgba(45,49,66,0.03)" stroke="rgba(45,49,66,0.30)"/>
+<text x="723.0" y="278.0" fill="#2d3142" font-size="11" font-weight="600" text-anchor="middle">422, rechazado</text>
+<polygon points="400,350 515.0,392.0 400,434 285.0,392.0" fill="#ffffff" stroke="#2d3142"/>
+<text x="400" y="390.0" fill="#2d3142" font-size="11.5" font-weight="600" text-anchor="middle">¿Message-ID</text>
+<text x="400" y="404.0" fill="#2d3142" font-size="11.5" font-weight="600" text-anchor="middle">ya visto?</text>
+<rect x="605.0" y="368.0" width="236" height="48" rx="20" fill="rgba(45,49,66,0.03)" stroke="rgba(45,49,66,0.30)"/>
+<text x="723.0" y="389.0" fill="#2d3142" font-size="11" font-weight="600" text-anchor="middle">Duplicado</text><text x="723.0" y="404.0" fill="#4f5d75" font-size="9" font-family="monospace" text-anchor="middle">sin tarea ni aviso nuevo</text>
+<rect x="265.0" y="468" width="270" height="44" rx="6" fill="#ffffff" stroke="#2d3142"/>
+<text x="400" y="487.0" fill="#2d3142" font-size="12.5" font-weight="600" text-anchor="middle">Clasificar (Groq, respaldo Ollama)</text>
+<text x="400" y="501.0" fill="#4f5d75" font-size="9" font-family="monospace" text-anchor="middle">salida validada contra enum cerrado</text>
+<polygon points="400,546 515.0,588.0 400,630 285.0,588.0" fill="#ffffff" stroke="#2d3142"/>
+<text x="400" y="586.0" fill="#2d3142" font-size="11.5" font-weight="600" text-anchor="middle">¿Ventas o soporte,</text>
+<text x="400" y="600.0" fill="#2d3142" font-size="11.5" font-weight="600" text-anchor="middle">sin inyección?</text>
+<rect x="605.0" y="564.0" width="236" height="48" rx="20" fill="rgba(45,49,66,0.03)" stroke="rgba(45,49,66,0.30)"/>
+<text x="723.0" y="585.0" fill="#2d3142" font-size="11" font-weight="600" text-anchor="middle">Spam o revisión manual</text><text x="723.0" y="600.0" fill="#4f5d75" font-size="9" font-family="monospace" text-anchor="middle">sin borrador ni botón</text>
+<rect x="265.0" y="664" width="270" height="44" rx="6" fill="#ffffff" stroke="#2d3142"/>
+<text x="400" y="683.0" fill="#2d3142" font-size="12.5" font-weight="600" text-anchor="middle">Borrador + tarea en la hoja</text>
+<text x="400" y="697.0" fill="#4f5d75" font-size="9" font-family="monospace" text-anchor="middle">tono fijo, humanizer, sin precios ni fechas</text>
+<rect x="265.0" y="742" width="270" height="44" rx="6" fill="#ffffff" stroke="#2d3142"/>
+<text x="400" y="761.0" fill="#2d3142" font-size="12.5" font-weight="600" text-anchor="middle">Aviso Telegram con botón Aprobar</text>
+<text x="400" y="775.0" fill="#4f5d75" font-size="9" font-family="monospace" text-anchor="middle">muestra destinatario, asunto y cuerpo exactos</text>
+<polygon points="400,820 515.0,862.0 400,904 285.0,862.0" fill="#ffffff" stroke="#2d3142"/>
+<text x="400" y="860.0" fill="#2d3142" font-size="11.5" font-weight="600" text-anchor="middle">¿Clic</text>
+<text x="400" y="874.0" fill="#2d3142" font-size="11.5" font-weight="600" text-anchor="middle">válido?</text>
+<rect x="605.0" y="838.0" width="236" height="48" rx="20" fill="rgba(45,49,66,0.03)" stroke="rgba(45,49,66,0.30)"/>
+<text x="723.0" y="866.0" fill="#2d3142" font-size="11" font-weight="600" text-anchor="middle">Nada se envía</text>
+<rect x="285.0" y="938" width="230" height="56" rx="20" fill="rgba(191,69,32,0.08)" stroke="#bf4520"/>
+<text x="400" y="962.0" fill="#2d3142" font-size="12.5" font-weight="600" text-anchor="middle">Buzón simulado: 1 envío</text>
+<text x="400" y="978.0" fill="#4f5d75" font-size="9" font-family="monospace" text-anchor="middle">hash + chat en allowlist + un solo uso</text>
+<line x1="40" y1="1018" x2="960" y2="1018" stroke="rgba(45,49,66,0.10)"/>
+<text x="40" y="1036" fill="#4f5d75" font-size="8.5" font-family="monospace" letter-spacing="0.16em">LEYENDA · LA FORMA INDICA EL TIPO · CORAL = ÚNICO CAMINO A UN ENVÍO</text>
+</svg></div></div></body></html>

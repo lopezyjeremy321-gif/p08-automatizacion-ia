@@ -1,0 +1,624 @@
+{
+ "proveedor": "simulado (palabras clave)",
+ "n": 50,
+ "aciertos": 43,
+ "exactitud": 0.86,
+ "ic95": [
+  0.738135428014719,
+  0.9304925473797714
+ ],
+ "semiancho_pts": 9.61785596825262,
+ "cobertura": 0.88,
+ "exactitud_respondidos": 0.9772727272727273,
+ "falsos_positivos_spam": [],
+ "legitimos": 37,
+ "fp_spam_tasa": 0.0,
+ "matriz": {
+  "ventas": {
+   "ventas": 16,
+   "soporte": 0,
+   "spam": 0,
+   "incierto": 2
+  },
+  "soporte": {
+   "ventas": 0,
+   "soporte": 17,
+   "spam": 0,
+   "incierto": 2
+  },
+  "spam": {
+   "ventas": 1,
+   "soporte": 0,
+   "spam": 10,
+   "incierto": 2
+  }
+ },
+ "por_clase": {
+  "ventas": {
+   "precision": 0.9411764705882353,
+   "recall": 0.8888888888888888,
+   "n": 18
+  },
+  "soporte": {
+   "precision": 1.0,
+   "recall": 0.8947368421052632,
+   "n": 19
+  },
+  "spam": {
+   "precision": 1.0,
+   "recall": 0.7692307692307693,
+   "n": 13
+  }
+ },
+ "por_grupo": {
+  "ventas": [
+   15,
+   15
+  ],
+  "soporte": [
+   14,
+   15
+  ],
+  "spam": [
+   8,
+   10
+  ],
+  "dificil": [
+   6,
+   10
+  ]
+ },
+ "filas": [
+  {
+   "id": "v01",
+   "grupo": "ventas",
+   "gold": "ventas",
+   "pred": "ventas",
+   "conf": 0.95,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Cotizacion para mi oficina"
+  },
+  {
+   "id": "v02",
+   "grupo": "ventas",
+   "gold": "ventas",
+   "pred": "ventas",
+   "conf": 0.85,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Demo del servicio"
+  },
+  {
+   "id": "v03",
+   "grupo": "ventas",
+   "gold": "ventas",
+   "pred": "ventas",
+   "conf": 0.95,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Precio mayorista"
+  },
+  {
+   "id": "v04",
+   "grupo": "ventas",
+   "gold": "ventas",
+   "pred": "ventas",
+   "conf": 0.75,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Cuanto cuesta el plan anual"
+  },
+  {
+   "id": "v05",
+   "grupo": "ventas",
+   "gold": "ventas",
+   "pred": "ventas",
+   "conf": 0.75,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Propuesta para restaurante"
+  },
+  {
+   "id": "v06",
+   "grupo": "ventas",
+   "gold": "ventas",
+   "pred": "ventas",
+   "conf": 0.85,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Quiero adquirir licencias"
+  },
+  {
+   "id": "v07",
+   "grupo": "ventas",
+   "gold": "ventas",
+   "pred": "ventas",
+   "conf": 0.95,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Informacion de planes"
+  },
+  {
+   "id": "v08",
+   "grupo": "ventas",
+   "gold": "ventas",
+   "pred": "ventas",
+   "conf": 0.75,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Consulta comercial"
+  },
+  {
+   "id": "v09",
+   "grupo": "ventas",
+   "gold": "ventas",
+   "pred": "ventas",
+   "conf": 0.65,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Plan para freelancers"
+  },
+  {
+   "id": "v10",
+   "grupo": "ventas",
+   "gold": "ventas",
+   "pred": "ventas",
+   "conf": 0.75,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Presupuesto de implementacion"
+  },
+  {
+   "id": "v11",
+   "grupo": "ventas",
+   "gold": "ventas",
+   "pred": "ventas",
+   "conf": 0.75,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Me interesa su producto"
+  },
+  {
+   "id": "v12",
+   "grupo": "ventas",
+   "gold": "ventas",
+   "pred": "ventas",
+   "conf": 0.75,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Cotizar renovacion con mas usuarios"
+  },
+  {
+   "id": "v13",
+   "grupo": "ventas",
+   "gold": "ventas",
+   "pred": "ventas",
+   "conf": 0.75,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Alianza y precios para revendedores"
+  },
+  {
+   "id": "v14",
+   "grupo": "ventas",
+   "gold": "ventas",
+   "pred": "ventas",
+   "conf": 0.95,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Pregunta antes de comprar"
+  },
+  {
+   "id": "v15",
+   "grupo": "ventas",
+   "gold": "ventas",
+   "pred": "ventas",
+   "conf": 0.95,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Solicitud de demo y tarifas"
+  },
+  {
+   "id": "s01",
+   "grupo": "soporte",
+   "gold": "soporte",
+   "pred": "soporte",
+   "conf": 0.95,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "No puedo entrar a mi cuenta"
+  },
+  {
+   "id": "s02",
+   "grupo": "soporte",
+   "gold": "soporte",
+   "pred": "soporte",
+   "conf": 0.75,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Error al exportar reportes"
+  },
+  {
+   "id": "s03",
+   "grupo": "soporte",
+   "gold": "soporte",
+   "pred": "soporte",
+   "conf": 0.85,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Cobro duplicado"
+  },
+  {
+   "id": "s04",
+   "grupo": "soporte",
+   "gold": "soporte",
+   "pred": "soporte",
+   "conf": 0.75,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "La aplicacion se cierra sola"
+  },
+  {
+   "id": "s05",
+   "grupo": "soporte",
+   "gold": "soporte",
+   "pred": "soporte",
+   "conf": 0.65,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Mi pedido no llego"
+  },
+  {
+   "id": "s06",
+   "grupo": "soporte",
+   "gold": "soporte",
+   "pred": "soporte",
+   "conf": 0.65,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Como cambio mi correo de acceso"
+  },
+  {
+   "id": "s07",
+   "grupo": "soporte",
+   "gold": "soporte",
+   "pred": "soporte",
+   "conf": 0.75,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Factura con datos incorrectos"
+  },
+  {
+   "id": "s08",
+   "grupo": "soporte",
+   "gold": "soporte",
+   "pred": "soporte",
+   "conf": 0.75,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Queja por el servicio"
+  },
+  {
+   "id": "s09",
+   "grupo": "soporte",
+   "gold": "soporte",
+   "pred": "soporte",
+   "conf": 0.85,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "La pagina no carga"
+  },
+  {
+   "id": "s10",
+   "grupo": "soporte",
+   "gold": "soporte",
+   "pred": "soporte",
+   "conf": 0.75,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Cancelar mi suscripcion"
+  },
+  {
+   "id": "s11",
+   "grupo": "soporte",
+   "gold": "soporte",
+   "pred": "soporte",
+   "conf": 0.75,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Falla en las notificaciones"
+  },
+  {
+   "id": "s12",
+   "grupo": "soporte",
+   "gold": "soporte",
+   "pred": "soporte",
+   "conf": 0.75,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Producto llego danado"
+  },
+  {
+   "id": "s13",
+   "grupo": "soporte",
+   "gold": "soporte",
+   "pred": "incierto",
+   "conf": 0.0,
+   "ok": false,
+   "razon": "sin_senales",
+   "lat_s": 0.0,
+   "asunto": "Duda sobre como importar contactos"
+  },
+  {
+   "id": "s14",
+   "grupo": "soporte",
+   "gold": "soporte",
+   "pred": "soporte",
+   "conf": 0.85,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Ticket 4521 sin respuesta"
+  },
+  {
+   "id": "s15",
+   "grupo": "soporte",
+   "gold": "soporte",
+   "pred": "soporte",
+   "conf": 0.65,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Se perdieron mis datos"
+  },
+  {
+   "id": "p01",
+   "grupo": "spam",
+   "gold": "spam",
+   "pred": "spam",
+   "conf": 0.95,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Felicidades, ganaste un premio"
+  },
+  {
+   "id": "p02",
+   "grupo": "spam",
+   "gold": "spam",
+   "pred": "spam",
+   "conf": 0.95,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Inversion en cripto 100% garantizada"
+  },
+  {
+   "id": "p03",
+   "grupo": "spam",
+   "gold": "spam",
+   "pred": "spam",
+   "conf": 0.65,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Posicionamiento SEO barato"
+  },
+  {
+   "id": "p04",
+   "grupo": "spam",
+   "gold": "spam",
+   "pred": "spam",
+   "conf": 0.75,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Prestamo aprobado sin buro"
+  },
+  {
+   "id": "p05",
+   "grupo": "spam",
+   "gold": "spam",
+   "pred": "spam",
+   "conf": 0.95,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Compra seguidores"
+  },
+  {
+   "id": "p06",
+   "grupo": "spam",
+   "gold": "spam",
+   "pred": "spam",
+   "conf": 0.75,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Herencia millonaria"
+  },
+  {
+   "id": "p07",
+   "grupo": "spam",
+   "gold": "spam",
+   "pred": "incierto",
+   "conf": 0.4,
+   "ok": false,
+   "razon": "empate",
+   "lat_s": 0.0,
+   "asunto": "Viagra sin receta"
+  },
+  {
+   "id": "p08",
+   "grupo": "spam",
+   "gold": "spam",
+   "pred": "incierto",
+   "conf": 0.0,
+   "ok": false,
+   "razon": "sin_senales",
+   "lat_s": 0.0,
+   "asunto": "asdf qwer"
+  },
+  {
+   "id": "p09",
+   "grupo": "spam",
+   "gold": "spam",
+   "pred": "spam",
+   "conf": 0.75,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Gana dinero desde casa"
+  },
+  {
+   "id": "p10",
+   "grupo": "spam",
+   "gold": "spam",
+   "pred": "spam",
+   "conf": 0.75,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Ultima oportunidad de lotería"
+  },
+  {
+   "id": "d01",
+   "grupo": "dificil",
+   "gold": "soporte",
+   "pred": "soporte",
+   "conf": 0.65,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Problema con mi plan y mas licencias"
+  },
+  {
+   "id": "d02",
+   "grupo": "dificil",
+   "gold": "ventas",
+   "pred": "incierto",
+   "conf": 0.0,
+   "ok": false,
+   "razon": "sin_senales",
+   "lat_s": 0.0,
+   "asunto": "Pricing request"
+  },
+  {
+   "id": "d03",
+   "grupo": "dificil",
+   "gold": "soporte",
+   "pred": "soporte",
+   "conf": 0.65,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Cannot log in"
+  },
+  {
+   "id": "d04",
+   "grupo": "dificil",
+   "gold": "spam",
+   "pred": "ventas",
+   "conf": 0.75,
+   "ok": false,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Precio del plan Pro"
+  },
+  {
+   "id": "d05",
+   "grupo": "dificil",
+   "gold": "soporte",
+   "pred": "soporte",
+   "conf": 0.75,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "No puedo acceder"
+  },
+  {
+   "id": "d06",
+   "grupo": "dificil",
+   "gold": "ventas",
+   "pred": "ventas",
+   "conf": 0.65,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Cotizacion urgente de sus servicios"
+  },
+  {
+   "id": "d07",
+   "grupo": "dificil",
+   "gold": "ventas",
+   "pred": "incierto",
+   "conf": 0.0,
+   "ok": false,
+   "razon": "sin_senales",
+   "lat_s": 0.0,
+   "asunto": "Re: Re: Re: Informacion"
+  },
+  {
+   "id": "d08",
+   "grupo": "dificil",
+   "gold": "soporte",
+   "pred": "incierto",
+   "conf": 0.0,
+   "ok": false,
+   "razon": "sin_senales",
+   "lat_s": 0.0,
+   "asunto": "Re: Re: Re: Re: sigo sin recibir mi pedido"
+  },
+  {
+   "id": "d09",
+   "grupo": "dificil",
+   "gold": "spam",
+   "pred": "spam",
+   "conf": 0.85,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Aviso de seguridad de su cuenta"
+  },
+  {
+   "id": "d10",
+   "grupo": "dificil",
+   "gold": "spam",
+   "pred": "spam",
+   "conf": 0.75,
+   "ok": true,
+   "razon": "ok",
+   "lat_s": 0.0,
+   "asunto": "Colaboracion para su negocio"
+  }
+ ],
+ "lat_media_s": 0.0
+}
